@@ -1,10 +1,33 @@
 h1 {
 	font-family: nexa;
 	text-align: center;
-	font-size: 430%;
+	font-size: 250%;
 	margin-top: 100px;
 	margin-bottom: 50px;
 	font-weight: 1500;
 }
 
+body {
+	/*background-color: */
+}
 
+.question {
+	border: 1px solid black;
+	text-align: center;
+	padding: 20px;
+}
+
+#ans {
+	display: hidden;
+}
+
+#panel, #flip {
+  padding: 20px;
+  text-align: left;
+  color: black;
+  border: 1px solid black;
+}
+
+#panel {
+  display: hidden;
+}
