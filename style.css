@@ -11,7 +11,27 @@ body {
 	/*background-color: */
 }
 
-#q {
+#directions {
+	font-family: sans-serif; 
+	text-align: center;
+	font-weight: bold;
+	font-style: italics;
+	font-size: 80%;
+}
+
+.right {
+	color: green;
+	font-weight: bold;
+	visibility: hidden;
+}
+
+.wrong {
+	color: red;
+	font-weight: bold;
+	visibility: hidden;
+}
+
+/* #q {
 	font-family: sans-serif; 
 	text-align: left;
 	font-weight: bold;
@@ -36,4 +56,4 @@ body {
 	font-size: 16px;
 	margin: 3px 1.5px;
 	cursor: pointer;
-}
+} */

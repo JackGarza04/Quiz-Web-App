@@ -2,21 +2,22 @@
 <html>
 	<head>
 		<title>Online Interactive Quiz with Answers</title>
-		<link rel="stylesheet" href="mystyle.css">
+		<link rel="stylesheet" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="myscript.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
-		<h1>Quiz</h1>
-		<!-- <p id="q">What is 24/6?</p>
-		<button id="submit">Reveal Answer</button>
-		<p id="ans">4</p>
+		<h1>Quiz</h1>	
+		<p id="directions">Enter answers with spaces in between terms and denote with basic text math functions, enter "2&sup2;+2x" as "2^2 + 2x" <br> Use "C" as the arbitrary constant for integration</p>
 		
-		<p id="q2">What is 3 * 2?</p>
-		<button id="submit">Reveal Answer</button>
-		<p id="ans2">6</p> -->
+		<p><b>1)</b> Solve: &int;4x + 2<br><input type="text" id="ans1" value=""></p>
+		<button id="check1">Check</button>
+		<p class="right" id="r1">Correct!</p>
+		<p class="wrong" id="w1">Wrong, try again!</p>
 		
-		<p>What is 6 * 1? <input type="text" id="test" value=""></p>
-		<button>Check</button>
+		<p><b>2)</b> Solve: 2 * 6<br><input type="text" id="ans2" value=""></p>
+		<button id="check2">Check</button>
+		<p class="right" id="r2">Correct!</p>
+		<p class="wrong" id="w2">Wrong, try again!</p>
 	</body>
 </html>
