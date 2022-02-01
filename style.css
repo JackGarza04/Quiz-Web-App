@@ -23,12 +23,27 @@ body {
 	color: green;
 	font-weight: bold;
 	visibility: hidden;
+	opacity: 0.0;
 }
 
 .wrong {
 	color: red;
 	font-weight: bold;
 	visibility: hidden;
+	opacity: 0.0;
+}
+
+.btn {
+	background-color: #e7e7e7;
+	color: black;
+	padding: 5px 11px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 12px;
+	margin: 3px 1.5px;
+	cursor: pointer;
 }
 
 /* #q {
@@ -43,17 +58,4 @@ body {
 	text-align: left;
 	font-size: 100%;
 	visibility: hidden;
-}
-
-#submit {
-	background-color: #e7e7e7;
-	color: black;
-	padding: 15px 32px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-	font-size: 16px;
-	margin: 3px 1.5px;
-	cursor: pointer;
 } */
