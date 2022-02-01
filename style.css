@@ -11,7 +11,7 @@ body {
 	/*background-color: */
 }
 
-#question {
+#q {
 	font-family: sans-serif; 
 	text-align: left;
 	font-weight: bold;
@@ -25,7 +25,7 @@ body {
 	visibility: hidden;
 }
 
-#btnrev {
+#submit {
 	background-color: #e7e7e7;
 	color: black;
 	padding: 15px 32px;
