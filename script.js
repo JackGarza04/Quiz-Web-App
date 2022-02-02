@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	
+	/* add for loop */
 	$("#check1").click(function() {
 		checkAnswer("#userAns1", "2x^2 + 2x + C", "#feedback1")
 	});
@@ -38,7 +40,7 @@ $(document).ready(function() {
 	$("#check10").click(function() {
 		checkAnswer("#userAns10", "y = 2x - 13", "#feedback10")
 	});
-  
+	
 	function checkAnswer(userAnswer, correctAnswer, feedback) {
 		
 		if($(userAnswer).val().replace(/\s+/g, "") == correctAnswer.replace(/\s+/g, "")){
