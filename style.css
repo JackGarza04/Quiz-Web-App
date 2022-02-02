@@ -22,14 +22,12 @@ body {
 .right {
 	color: green;
 	font-weight: bold;
-	visibility: hidden;
 	opacity: 0.0;
 }
 
 .wrong {
 	color: red;
 	font-weight: bold;
-	visibility: hidden;
 	opacity: 0.0;
 }
 
@@ -45,17 +43,3 @@ body {
 	margin: 3px 1.5px;
 	cursor: pointer;
 }
-
-/* #q {
-	font-family: sans-serif; 
-	text-align: left;
-	font-weight: bold;
-	font-size: 130%;
-}
-
-#ans {
-	font-family: sans-serif; 
-	text-align: left;
-	font-size: 100%;
-	visibility: hidden;
-} */
