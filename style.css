@@ -6,7 +6,7 @@ h1 {
 	margin-bottom: 5px;
 	font-weight: 500;
 }
-
+/*Small underline for the heading*/
 .underline-small{
 	color: black;
 	position: relative;
@@ -65,7 +65,62 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;	
+	font-size: 16px;
+	margin: auto;
+	cursor: pointer;
+}
+/*Button that clears all entries, appears with red text*/
+.btnClear {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e7e7e7;
+	color: red;
+	padding: 5px 11px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
 	font-size: 12px;
 	margin: auto;
 	cursor: pointer;
+}
+/*Button CSS for the back to top button, with relevant animation for fading in and out*/
+#button {
+	display: inline-block;
+	background-color: #7393B3;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+
+#button::after {
+	content: "Back to Top";
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 90%;
+	line-height: 50px;
+	color: #fff;
+}
+
+#button:hover {
+	cursor: pointer;
+	background-color: #333;
+}
+
+#button:active {
+	background-color: #555;
+}
+
+#button.show {
+	opacity: 1;
+	visibility: visible;
 }
